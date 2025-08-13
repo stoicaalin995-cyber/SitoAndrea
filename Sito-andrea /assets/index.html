@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CRART_AC – Arte Pop e Figurativa</title>
+  <meta name="description" content="Arte pop e figurativa: ritratti, murales e sperimentazioni materiche di Andrea Cornalba." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta property="og:title" content="CRART_AC – Arte Pop e Figurativa" />
+  <meta property="og:description" content="Ritratti, murales e sperimentazioni materiche. Colleziona o commissiona un'opera unica." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/cover-placeholder.jpg" />
+  <meta name="theme-color" content="#c54124" />
+  <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Andrea Cornalba",
+    "jobTitle": "Painter",
+    "description": "Artista autodidatta: pittura pop e figurativa, ritratti e murales.",
+    "url": "https://crart-ac.com/",
+    "memberOf": ["Libera Associazione Pittori Pavesi","Arte 17","Lo Specchio dell’Arte"],
+    "address": {"@type":"PostalAddress","addressLocality":"Pavia","addressCountry":"IT"}
+  }</script>
+  <style>
+    .lang-switch{display:flex;gap:.4rem;margin-left:.85rem;padding-left:.85rem;border-left:1px solid rgba(255,255,255,.25);align-items:center}
+    .nav-list{display:flex;align-items:center}
+    .lang-switch .lang-btn{background:transparent;border:1px solid rgba(255,255,255,.25);color:inherit;font:inherit;cursor:pointer;padding:.28rem .45rem;border-radius:.35rem;line-height:1;display:flex;align-items:center;font-size:.65rem;letter-spacing:.4px;opacity:.85;transition:.25s}
+    .lang-switch .lang-btn:hover,.lang-switch .lang-btn:focus{opacity:1;border-color:#fff}
+    .lang-switch .lang-btn.active{background:#c54124;border-color:#c54124;color:#fff;opacity:1}
+    @media (max-width:720px){.lang-switch{margin-left:0;padding-left:0;border-left:0;justify-content:flex-start;margin-top:.5rem}.lang-switch .lang-btn{font-size:.7rem}}
+  </style>
+</head>
+<body>
+  <header class="site-header" role="banner" data-reveal>
+    <div class="inner">
+      <h1 class="logo" aria-label="CRART_AC Home"><span>CRART_</span><span>AC</span></h1>
+      <nav class="main-nav" aria-label="Principale">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
+        <ul id="navMenu" class="nav-list">
+          <li><a href="#opere" data-i18n="nav.works">Opere</a></li>
+          <li><a href="#commissioni" data-i18n="nav.commissions">Commissioni</a></li>
+          <li><a href="#bio" data-i18n="nav.bio">Bio</a></li>
+          <li><a href="#contatti" data-i18n="nav.contact">Contatti</a></li>
+          <li class="lang-switch" role="group" aria-label="Lingua / Language">
+            <button type="button" class="lang-btn active" data-lang="it" aria-pressed="true">🇮🇹 IT</button>
+            <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">🇬🇧 EN</button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="main" role="main">
+    <section class="hero" aria-labelledby="heroTitle" data-reveal>
+      <div class="hero__media">
+        <div class="hero__image">
+          <img src="assets/img/IMG_3404.jpeg" alt="Dettaglio opera di Andrea Cornalba" width="900" height="1200" loading="eager" />
+        </div>
+      </div>
+      <div class="hero__content">
+        <h2 id="heroTitle" data-i18n="hero.title">Pittura pop e figurativa</h2>
+        <p class="lead" data-i18n="hero.lead">Ritratti che raccontano storie, murales che trasformano gli spazi e sperimentazioni materiche che sfidano i sensi. Ogni creazione è un pezzo unico, realizzato con passione e cura, pronto a dare carattere e personalità alla tua casa, al tuo ufficio o al tuo locale. Puoi scegliere tra opere già disponibili o commissionare un lavoro su misura, pensato appositamente per te e per la tua storia.</p>
+        <div class="cta-group">
+          <a href="#opere" class="btn primary" data-i18n="hero.browse">Sfoglia le opere</a>
+          <a href="#commissioni" class="btn ghost" data-i18n="hero.commission">Commissiona</a>
+        </div>
+      </div>
+      <!-- Nuovo omino a destra della pagina -->
+      <div class="painter-right" aria-hidden="true">
+        <div class="bubble" data-i18n-bubble-it="Benvenuto sul mio sito, divertiti ad esplorare!" data-i18n-bubble-en="Welcome to my website, enjoy exploring!"></div>
+        <svg viewBox="0 0 160 200" width="120" height="170" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="skin" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0%" stop-color="#f5c9a3"/>
+              <stop offset="100%" stop-color="#e2a777"/>
+            </linearGradient>
+            <linearGradient id="shirtG2" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0%" stop-color="#222" />
+              <stop offset="100%" stop-color="#444" />
+            </linearGradient>
+            <linearGradient id="brushWood" x1="0" x2="1" y1="0" y2="0">
+              <stop offset="0%" stop-color="#8b5a2b" />
+              <stop offset="100%" stop-color="#b87934" />
+            </linearGradient>
+          </defs>
+          <!-- CAPELLI LUNGHI -->
+          <path d="M72 24c-14 2-25 16-25 36 0 19 9 34 25 40 16-6 25-21 25-40 0-20-11-34-25-36z" fill="#2d2218"/>
+          <path d="M95 55c0 18-9 30-23 35-14-5-23-17-23-35 0-3 .2-6 .7-8.5-2.5 3.8-3.7 8.4-3.7 14 0 21 12 36 26 41 14-5 26-20 26-41 0-5.6-1.2-10.2-3.7-14 0 2.5.7 5.6.7 8.5z" fill="#392c22" opacity=".55"/>
+          <!-- TESTA -->
+          <circle cx="72" cy="60" r="28" fill="url(#skin)" stroke="#c08a5d" stroke-width="2" />
+          <!-- VISO -->
+          <circle cx="62" cy="58" r="4" fill="#222" />
+          <circle cx="82" cy="58" r="4" fill="#222" />
+          <path d="M60 69 Q72 78 84 69" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round" />
+          <!-- CIUFFI CAPELLI DAVANTI -->
+          <path d="M52 44c4 6 10 9 20 9s16-3 20-9" stroke="#2d2218" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <!-- CORPO -->
+          <rect x="48" y="96" width="50" height="64" rx="14" fill="url(#shirtG2)" stroke="#c54124" stroke-width="2" />
+          <!-- BRACCIO + PENNELLO (destra) -->
+          <g class="arm" transform="translate(95 110)">
+            <rect x="0" y="14" width="46" height="12" rx="6" fill="url(#skin)" stroke="#c08a5d" stroke-width="2" />
+            <!-- Mano -->
+            <circle cx="47" cy="20" r="8" fill="url(#skin)" stroke="#c08a5d" stroke-width="2" />
+            <!-- Pennello -->
+            <g transform="translate(52 20) rotate(-8)">
+              <rect x="0" y="-2" width="44" height="4" rx="2" fill="url(#brushWood)" />
+              <path d="M44 -4 L52 0 L44 4 Z" fill="#c54124" stroke="#992e15" stroke-width="1" />
+              <path d="M44 -3 L49 0 L44 3" stroke="#fae6d8" stroke-width="1" />
+            </g>
+          </g>
+          <!-- GAMBE -->
+          <rect x="54" y="160" width="16" height="38" rx="5" fill="#222" />
+          <rect x="76" y="160" width="16" height="38" rx="5" fill="#222" />
+          <!-- OMBRA -->
+          <ellipse cx="72" cy="198" rx="38" ry="10" fill="rgba(0,0,0,.25)" />
+        </svg>
+      </div>
+    </section>
+
+    <section id="opere" class="gallery-section" aria-labelledby="galleryTitle" data-reveal>
+      <div class="section-head">
+        <h3 id="galleryTitle" data-i18n="sections.featured">Opere in evidenza</h3>
+        <div class="filters" aria-label="Filtri opere">
+          <button class="filter-btn is-active" data-filter="all" data-i18n="filters.all">Tutte</button>
+          <button class="filter-btn" data-filter="cinema" data-i18n="filters.cinema">Cinema</button>
+          <button class="filter-btn" data-filter="polaroid" data-i18n="filters.polaroid">Polaroid</button>
+        </div>
+      </div>
+      <div id="artGrid" class="art-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="cinema" class="cinema-section" aria-labelledby="cinemaTitle" data-reveal>
+      <div class="section-head">
+        <h3 id="cinemaTitle" data-i18n="sections.cinema">Collezione Cinema</h3>
+      </div>
+      <div class="cinema-grid">
+        <figure class="cinema-item">
+          <img src="assets/img/20211222_144641-2.jpg" alt="Collezione Cinema 2021" loading="lazy" />
+          <figcaption>Collezione Cinema 2021</figcaption>
+        </figure>
+        <figure class="cinema-item">
+          <img src="assets/img/20220114_110409.jpg" alt="Collezione Cinema Gen 2022" loading="lazy" />
+          <figcaption>Collezione Cinema Gen 2022</figcaption>
+        </figure>
+        <figure class="cinema-item">
+          <img src="assets/img/20220206_165159-1.jpg" alt="Collezione Cinema Feb 2022 A" loading="lazy" />
+          <figcaption>Collezione Cinema Feb 2022 A</figcaption>
+        </figure>
+        <figure class="cinema-item">
+          <img src="assets/img/20220228_170756.jpg" alt="Collezione Cinema Feb 2022 B" loading="lazy" />
+          <figcaption>Collezione Cinema Feb 2022 B</figcaption>
+        </figure>
+        <figure class="cinema-item">
+          <img src="assets/img/donnauomo.jpg" alt="Jules et Jim" loading="lazy" />
+          <figcaption>Jules et Jim</figcaption>
+        </figure>
+        <figure class="cinema-item">
+          <img src="assets/img/donnauomo2.jpg" alt="À Bout de Souffle" loading="lazy" />
+          <figcaption>À Bout de Souffle</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="polaroid" class="polaroid-section" aria-labelledby="polaroidTitle" data-reveal>
+      <div class="section-head">
+        <h3 id="polaroidTitle" data-i18n="sections.polaroid">Collezione Polaroid</h3>
+      </div>
+      <div class="polaroid-grid">
+        <figure class="polaroid-item">
+          <img src="assets/img/IMG_2104-scaled.jpeg" alt="Polaroid 1" loading="lazy" />
+          <figcaption>Polaroid 1</figcaption>
+        </figure>
+        <figure class="polaroid-item">
+          <img src="assets/img/IMG_2105-1364x2048.jpeg" alt="Polaroid 2" loading="lazy" />
+          <figcaption>Polaroid 2</figcaption>
+        </figure>
+        <figure class="polaroid-item">
+          <img src="assets/img/IMG_2108-1299x2048.jpeg" alt="Polaroid 3" loading="lazy" />
+          <figcaption>Polaroid 3</figcaption>
+        </figure>
+        <figure class="polaroid-item">
+          <img src="assets/img/IMG_2109-scaled.jpeg" alt="Polaroid 4" loading="lazy" />
+          <figcaption>Polaroid 4</figcaption>
+        </figure>
+        <!-- Nuove 4 opere -->
+        <figure class="polaroid-item">
+          <img src="assets/img/andy.jpeg" alt="Warhol" loading="lazy" />
+          <figcaption>WARHOL</figcaption>
+        </figure>
+        <figure class="polaroid-item">
+          <img src="assets/img/dali.jpeg" alt="Dalì" loading="lazy" />
+          <figcaption>DALÌ</figcaption>
+        </figure>
+        <figure class="polaroid-item">
+          <img src="assets/img/bacon.jpeg" alt="Bacon" loading="lazy" />
+          <figcaption>BACON</figcaption>
+        </figure>
+        <figure class="polaroid-item">
+          <img src="assets/img/linch.jpeg" alt="Lichtenstein" loading="lazy" />
+          <figcaption>LICHTENSTEIN</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="commissioni" class="commission-section" aria-labelledby="commissioniTitle" data-reveal>
+      <h3 id="commissioniTitle" data-i18n="sections.commissions">Commissioni su misura</h3>
+      <ol class="process">
+        <li><strong data-i18n="process.brief">Brief</strong><span data-i18n="process.briefDesc"> Idea, dimensioni, spazio.</span></li>
+        <li><strong data-i18n="process.concept">Concept</strong><span data-i18n="process.conceptDesc"> Bozza e palette.</span></li>
+        <li><strong data-i18n="process.execution">Esecuzione</strong><span data-i18n="process.executionDesc"> Tecniche miste / murale.</span></li>
+        <li><strong data-i18n="process.delivery">Consegna</strong><span data-i18n="process.deliveryDesc"> Certificato autenticità.</span></li>
+      </ol>
+      <a href="#contatti" class="btn primary" data-i18n="buttons.quote">Richiedi preventivo</a>
+    </section>
+
+    <section id="bio" class="bio-section" aria-labelledby="bioTitle" data-reveal>
+      <div class="bio-media">
+        <img src="assets/img/rossoebianco.jpeg" alt="Opera di Andrea Cornalba" loading="lazy" />
+      </div>
+      <div class="bio-content">
+        <h3 id="bioTitle" data-i18n="sections.bio">Andrea Cornalba</h3>
+        <p data-i18n="bio.text1">Andrea Cornalba, nato a Pavia nel 1990, ha coltivato fin da bambino la passione per il disegno. Dopo essersi diplomato all’Istituto Tecnico A. Volta in topografia, si è avvicinato alle arti visive, iniziando come autodidatta con gli acrilici e poi perfezionandosi nella pittura a olio presso la Scuola Civica Arvima con Monica Anselmi. È membro attivo di varie associazioni artistiche pavesi e, ispirato dalla Pop Art e dallo stile figurativo, realizza ritratti, opere astratte e murales su commissione.</p>
+        <p><a href="#contatti" class="text-link" data-i18n="links.learnMore">Scopri di più</a></p>
+      </div>
+    </section>
+
+    <section id="contatti" class="contact-section" aria-labelledby="contactTitle" data-reveal>
+      <h3 id="contactTitle" data-i18n="sections.contact">Contatti</h3>
+      <form class="contact-form" novalidate>
+        <div class="field">
+          <label for="nome" data-i18n="form.name">Nome</label>
+          <input id="nome" name="nome" type="text" required />
+        </div>
+        <div class="field">
+          <label for="email" data-i18n="form.email">Email</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+        <div class="field">
+          <label for="messaggio" data-i18n="form.message">Messaggio</label>
+          <textarea id="messaggio" name="messaggio" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn primary" data-i18n="form.send">Invia</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo" data-reveal>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <h4>CRART_AC</h4>
+        <p>Arte pop e figurativa. Ritratti, murales, texture e sperimentazioni materiche.</p>
+        <div class="social">
+          <a href="https://www.instagram.com/crart_ac/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="5" ry="5"/>
+              <path d="M16 11.37a4 4 0 1 1-7.999.001A4 4 0 0 1 16 11.37z"/>
+              <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none" />
+            </svg>
+          </a>
+          <a href="https://www.facebook.com/crart1990" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+              <path d="M22 12.06C22 6.48 17.52 2 11.94 2 6.36 2 1.88 6.48 1.88 12.06c0 4.99 3.66 9.13 8.44 9.94v-7.03H7.9v-2.91h2.42V9.84c0-2.4 1.43-3.73 3.62-3.73 1.05 0 2.15.19 2.15.19v2.37h-1.21c-1.19 0-1.56.74-1.56 1.5v1.8h2.65l-.42 2.91h-2.23V22c4.78-.81 8.44-4.95 8.44-9.94Z" />
+            </svg>
+          </a>
+          <a href="mailto:andrea.cr790@gmail.com" aria-label="E-mail">@</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5 data-i18n="footer.navigate">Naviga</h5>
+        <ul>
+          <li><a href="#opere">Opere</a></li>
+          <li><a href="#commissioni">Commissioni</a></li>
+          <li><a href="#bio">Bio</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5 data-i18n="footer.collections">Collezioni</h5>
+        <ul>
+          <li><a href="#opere" data-filter-link="cinema" data-i18n="filters.cinema">Cinema</a></li>
+          <li><a href="#opere" data-filter-link="polaroid" data-i18n="filters.polaroid">Polaroid</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5 data-i18n="footer.info">Info</h5>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Cookie</a></li>
+          <li><a href="#">Credits</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> CRART_AC. Tutti i diritti riservati.</span>
+      <span>Design prototype</span>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();document.querySelectorAll('[data-filter-link]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const f=a.getAttribute('data-filter-link');document.querySelector(`.filter-btn[data-filter="${f}"]`)?.click();document.getElementById('opere').scrollIntoView({behavior:'smooth'});}));</script>
+  <script>
+    const I18N = {
+      it: {
+        'nav.works':'Opere','nav.commissions':'Commissioni','nav.bio':'Bio','nav.contact':'Contatti',
+        'hero.title':'Pittura pop e figurativa','hero.lead':'Ritratti che raccontano storie, murales che trasformano gli spazi e sperimentazioni materiche che sfidano i sensi. Ogni creazione è un pezzo unico, realizzato con passione e cura, pronto a dare carattere e personalità alla tua casa, al tuo ufficio o al tuo locale. Puoi scegliere tra opere già disponibili o commissionare un lavoro su misura, pensato appositamente per te e per la tua storia.',
+        'hero.browse':'Sfoglia le opere','hero.commission':'Commissiona',
+        'sections.featured':'Opere in evidenza','sections.cinema':'Collezione Cinema','sections.polaroid':'Collezione Polaroid','sections.commissions':'Commissioni su misura','sections.bio':'Andrea Cornalba','sections.contact':'Contatti',
+        'filters.all':'Tutte','filters.cinema':'Cinema','filters.polaroid':'Polaroid',
+        'process.brief':'Brief','process.briefDesc':' Idea, dimensioni, spazio.','process.concept':'Concept','process.conceptDesc':' Bozza e palette.','process.execution':'Esecuzione','process.executionDesc':' Tecniche miste / murale.','process.delivery':'Consegna','process.deliveryDesc':' Certificato autenticità.',
+        'buttons.quote':'Richiedi preventivo',
+        'bio.text1':'Andrea Cornalba, nato a Pavia nel 1990, ha coltivato fin da bambino la passione per il disegno. Dopo essersi diplomato all\u2019Istituto Tecnico A. Volta in topografia, si \u00e8 avvicinato alle arti visive, iniziando come autodidatta con gli acrilici e poi perfezionandosi nella pittura a olio presso la Scuola Civica Arvima con Monica Anselmi. \u00c8 membro attivo di varie associazioni artistiche pavesi e, ispirato dalla Pop Art e dallo stile figurativo, realizza ritratti, opere astratte e murales su commissione.',
+        'links.learnMore':'Scopri di più',
+        'form.name':'Nome','form.email':'Email','form.message':'Messaggio','form.send':'Invia',
+        'footer.navigate':'Naviga','footer.collections':'Collezioni','footer.info':'Info'
+      },
+      en: {
+        'nav.works':'Works','nav.commissions':'Commissions','nav.bio':'Bio','nav.contact':'Contact',
+        'hero.title':'Pop and figurative painting','hero.lead':'Portraits that tell stories, murals that transform spaces, and material experiments that challenge the senses. Each creation is a one-of-a-kind piece, crafted with passion and care, ready to bring character and personality to your home, office, or venue. You can choose from works already available or commission a bespoke piece, conceived especially for you and your story.',
+        'hero.browse':'Browse works','hero.commission':'Commission',
+        'sections.featured':'Featured works','sections.cinema':'Cinema Collection','sections.polaroid':'Polaroid Collection','sections.commissions':'Custom commissions','sections.bio':'Andrea Cornalba','sections.contact':'Contact',
+        'filters.all':'All','filters.cinema':'Cinema','filters.polaroid':'Polaroid',
+        'process.brief':'Brief','process.briefDesc':' Idea, size, space.','process.concept':'Concept','process.conceptDesc':' Sketch and palette.','process.execution':'Execution','process.executionDesc':' Mixed techniques / mural.','process.delivery':'Delivery','process.deliveryDesc':' Certificate of authenticity.',
+        'buttons.quote':'Request a quote',
+        'bio.text1':'Andrea Cornalba, born in Pavia in 1990, has nurtured a passion for drawing since childhood. After graduating in surveying from the A. Volta Technical Institute, he embraced the visual arts, starting as a self-taught acrylic painter and then refining oil techniques at the Arvima Civic School with Monica Anselmi. An active member of several local art associations and inspired by Pop Art and figurative style, he creates portraits, abstract works and commissioned murals.',
+        'links.learnMore':'Learn more',
+        'form.name':'Name','form.email':'Email','form.message':'Message','form.send':'Send',
+        'footer.navigate':'Navigate','footer.collections':'Collections','footer.info':'Info'
+      }
+    };
+    function applyLang(lang){
+      const dict = I18N[lang]||I18N.it;
+      document.documentElement.lang = lang;
+      document.querySelectorAll('[data-i18n]').forEach(el=>{
+        const key = el.getAttribute('data-i18n');
+        if(dict[key]){
+          if(el.tagName==='INPUT' || el.tagName==='TEXTAREA'){
+            el.setAttribute('placeholder', dict[key]);
+          } else {
+            el.textContent = dict[key];
+          }
+        }
+      });
+      localStorage.setItem('lang', lang);
+      document.querySelectorAll('.lang-btn').forEach(btn=>{
+        const active = btn.getAttribute('data-lang')===lang;
+        btn.classList.toggle('active', active);
+        btn.setAttribute('aria-pressed', active);
+      });
+      // aggiorna testo nuvoletta se presente
+      const bubble = document.querySelector('.painter-right .bubble');
+      if(bubble){
+        bubble.textContent = lang==='en' ? bubble.getAttribute('data-i18n-bubble-en') : bubble.getAttribute('data-i18n-bubble-it');
+      }
+    }
+    document.addEventListener('DOMContentLoaded',()=>{
+      const saved = localStorage.getItem('lang')||'it';
+      applyLang(saved);
+      document.querySelectorAll('.lang-btn').forEach(b=>b.addEventListener('click',()=>applyLang(b.getAttribute('data-lang'))));
+      // mostra la nuvoletta sincronizzata con l'entrata dell'omino
+      const bubble = document.querySelector('.painter-right .bubble');
+      const painter = document.querySelector('.painter-right');
+      if(painter && bubble){
+        // set testo iniziale
+        bubble.textContent = (document.documentElement.lang==='en') ? bubble.getAttribute('data-i18n-bubble-en') : bubble.getAttribute('data-i18n-bubble-it');
+        // apparizione poco dopo l'inizio dell'animazione
+        setTimeout(()=>{ bubble.classList.add('show'); }, 1600);
+        // scomparsa prima che l'omino esca
+        setTimeout(()=>{ bubble.classList.remove('show'); }, 3800);
+      }
+    });
+  </script>
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>
